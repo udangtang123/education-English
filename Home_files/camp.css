@@ -1,0 +1,5724 @@
+@font-face {
+
+  font-family: 'Arial Rounded MT Bold';
+
+  font-style: normal;
+
+  font-weight: bold;
+
+  src: local("Arial Rounded MT Bold"), url("./fonts/ArialRoundedMTBold.ttf") format("ttf");
+
+}
+
+
+
+@font-face {
+
+  font-family: 'Arial Black';
+
+  font-style: normal;
+
+  font-weight: bold;
+
+  src: url("./fonts/ARIBLK.woff") format("woff");
+
+}
+
+
+
+.camp-page {
+
+  font-family: "Arial Rounded MT Bold", sans-serif, sans-serif;
+
+  font-weight: bold;
+
+  color: #231f20;
+
+}
+
+
+
+.camp-page .cta-blue {
+
+  font-family: serif;
+
+  font-weight: normal;
+
+  margin: 0;
+
+}
+
+
+
+.camp-page + .footer {
+
+  padding-top: 0;
+
+}
+
+
+
+.camp-page + .footer .find-section__header {
+
+  margin-top: 0;
+
+  border-top: none;
+
+}
+
+
+
+.camp-page h2, .camp-page h3 {
+
+  margin: 0;
+
+  padding: 0;
+
+  font-size: inherit;
+
+  font-weight: inherit;
+
+  line-height: inherit;
+
+}
+
+
+
+h2.ba-brain-header__title {
+
+    font-size: 52px;
+
+    line-height: 1.2em;
+
+    font-family: "Arial Black", sans-serif;
+
+    margin: 0;
+
+}
+
+
+
+.camp-title-with-icon {
+
+  font-size: 32px;
+
+  line-height: 1.2em;
+
+  font-family: "Arial Black", sans-serif;
+
+  position: relative;
+
+  padding-left: 90px;
+
+  padding-top: 5px;
+
+}
+
+
+
+.camp-title-with-icon:before {
+
+  content: '';
+
+  display: block;
+
+  width: 59px;
+
+  height: 45px;
+
+  background: transparent url("./brain-icon.svg") no-repeat 0 0;
+
+  background-size: contain;
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+}
+
+
+
+.cta-blue-choose {
+
+  display: flex;
+
+  margin: 0;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  justify-content: flex-start;
+
+  align-items: center;
+
+  padding: 32px 30px;
+
+  background-color: #26387e;
+
+  color: white;
+
+  font-family: Century, serif;
+
+}
+
+
+
+.cta-blue-choose__or {
+
+  display: inline-block;
+
+  vertical-align: baseline;
+
+  margin: 0 0.75em;
+
+}
+
+
+
+.cta-blue-choose__title {
+
+  font-size: 36px;
+
+  line-height: 1.2em;
+
+  font-weight: normal;
+
+  margin: 0;
+
+}
+
+
+
+.cta-blue-choose__title strong {
+
+  font-family: 'Garamond', serif;
+
+  font-weight: bold;
+
+  font-size: 1.2em;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .camp-title-with-icon {
+
+    padding-left: 0;
+
+    font-size: 28px;
+
+  }
+
+  .camp-title-with-icon:before {
+
+    display: block;
+
+    position: static;
+
+    margin-bottom: 10px;
+
+  }
+
+}
+
+
+
+.camp-banner {
+
+  font-size: 0;
+
+  line-height: 0;
+
+}
+
+
+
+.camp-intro {
+
+  background-color: #fffad1;
+
+  padding-top: 2px;
+
+}
+
+
+
+.camp-intro__title {
+
+  position: relative;
+
+  font-size: 40px;
+
+  line-height: 1.2em;
+
+  padding-left: 75px;
+
+  margin-bottom: 32px;
+
+}
+
+
+.camp-intro h1 {
+    font-size: 40px;
+    line-height: 1.2em;
+    margin: 0;
+}
+
+.camp-intro__title h1 {
+
+  margin: 0;
+
+  padding: 0;
+
+  font-size: inherit;
+
+  font-weight: inherit;
+
+  line-height: inherit;
+
+}
+
+
+
+.camp-intro__heading-with-icon {
+
+  font-family: "Arial Black", sans-serif;
+
+  font-size: 40px;
+
+  line-height: 1.2em;
+
+  padding-left: 135px;
+
+  position: relative;
+
+  margin-bottom: 0.875em;
+
+}
+
+
+
+.camp-intro__heading-with-icon:before {
+
+  content: '';
+
+  display: block;
+
+  width: 92px;
+
+  height: 72px;
+
+  background: transparent url("./brain-icon.svg") no-repeat 0 0;
+
+  background-size: contain;
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+}
+
+
+
+.camp-intro__heading-with-icon-sm {
+
+  font-family: "Arial Rounded MT Bold", sans-serif;
+
+}
+
+
+
+.camp-intro__text {
+
+  font-family: "Arial", sans-serif;
+
+  font-size: 16px;
+
+  line-height: 20px;
+
+  font-weight: normal;
+
+  padding-bottom: 11px;
+
+}
+
+
+
+.camp-intro__text p {
+
+  margin-bottom: 18px;
+
+}
+
+
+
+.camp-section-padding {
+
+  padding-left: 20px;
+
+  padding-right: 20px;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .camp-intro__title {
+
+    padding-left: 0;
+
+    font-size: 32px;
+
+  }
+
+  .camp-intro h1 {
+    font-size: 32px;
+  }
+
+  .camp-intro__title br {
+
+    display: none;
+
+  }
+
+  .camp-intro__heading-with-icon {
+
+    padding-left: 0;
+
+    font-size: 32px;
+
+  }
+
+  .camp-intro__heading-with-icon:before {
+
+    display: block;
+
+    position: static;
+
+    width: 60px;
+
+    height: 60px;
+
+  }
+
+}
+
+
+
+.camp-weeks-section {
+
+  background-color: #fffad1;
+
+  padding-top: 32px;
+
+}
+
+
+
+.camp-w-list__inner {
+
+  margin-left: -10px;
+
+  margin-right: -10px;
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-content: flex-start;
+
+  justify-content: flex-start;
+
+}
+
+
+
+.camp-w-item {
+
+  width: 25%;
+
+  padding-left: 10px;
+
+  padding-right: 10px;
+
+}
+
+
+
+.camp-w-item__icon {
+
+  display: block;
+
+  width: 44px;
+
+  height: 35px;
+
+  background: transparent url("./brain-icon.svg") no-repeat 0 0;
+
+  background-size: contain;
+
+  margin-bottom: 11px;
+
+  margin-left: 15px;
+
+}
+
+
+
+.camp-w-item__title {
+
+  font-size: 24px;
+
+  font-family: "Arial Black", sans-serif;
+
+  line-height: 1.2em;
+
+  font-weight: bold;
+
+  margin-left: 15px;
+
+}
+
+
+
+.camp-w-item__subtitle {
+
+  margin-bottom: 28px;
+
+  font-size: 24px;
+
+  line-height: 1.2em;
+
+  margin-left: 15px;
+
+}
+
+
+
+.camp-w-item__grades {
+
+  text-align: center;
+
+  font-size: 18px;
+
+  line-height: 1.2em;
+
+  margin-top: 5px;
+
+}
+
+
+
+.camp-w-item-card {
+
+  font-size: 0;
+
+  line-height: 0;
+
+  position: relative;
+
+}
+
+
+
+.camp-w-item-card img {
+
+  width: 100%;
+
+}
+
+
+
+.camp-w-item-card__text {
+
+  position: absolute;
+
+  bottom: 0;
+
+  left: 0;
+
+  right: 0;
+
+  font-family: "Arial Black", sans-serif;
+
+  font-size: 20px;
+
+  line-height: 1.2em;
+
+  color: #fff;
+
+  padding-left: 10px;
+
+  padding-right: 10px;
+
+  padding-top: 2px;
+
+  padding-bottom: 3px;
+
+}
+
+
+
+.camp-w-item-card__text.green {
+
+  background-color: rgba(122, 193, 67, 0.7);
+
+}
+
+
+
+.camp-w-item-card__text.pink {
+
+  background-color: rgba(237, 56, 109, 0.7);
+
+}
+
+
+
+.camp-w-item-card__text.blue {
+
+  background-color: rgba(75, 106, 178, 0.7);
+
+}
+
+
+
+.camp-w-item-card__text.brown {
+
+  background-color: rgba(234, 106, 55, 0.7);
+
+}
+
+
+
+.camp-w-item-card__text.smaller {
+
+  font-size: 18px;
+
+}
+
+
+
+.camp-w-item-card__text.center {
+
+  text-align: center;
+
+}
+
+
+
+.camp-w-item--theme2 .camp-w-item {
+
+  position: relative;
+
+}
+
+
+
+.camp-w-item--theme2 .camp-w-item__icon {
+
+  width: 40px;
+
+  height: 31px;
+
+  margin-left: 0;
+
+  margin-right: 5px;
+
+  margin-bottom: 8px;
+
+}
+
+
+
+.camp-w-item--theme2 .camp-w-item__title {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  margin-left: 0;
+
+  align-items: center;
+
+}
+
+
+
+.camp-w-item--theme2 .camp-w-item__subtitle {
+
+  margin-left: 6px;
+
+  margin-top: -3px;
+
+}
+
+
+
+.camp-w-item--theme2.camp-w-item:first-child .camp-w-item__subtitle {
+
+  margin-left: 20px;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .camp-w-list__inner {
+
+    flex-wrap: wrap;
+
+  }
+
+  .camp-w-item {
+
+    width: 50%;
+
+    margin-top: 48px;
+
+  }
+
+  .camp-w-item:nth-child(1), .camp-w-item:nth-child(2) {
+
+    margin-top: 0;
+
+  }
+
+  .camp-w-item__grades {
+
+    font-size: 16px;
+
+  }
+
+  .camp-w-item-card__text {
+
+    font-size: 16px;
+
+  }
+
+  .camp-w-item-card__text.smaller {
+
+    font-size: 16px;
+
+  }
+
+  .camp-w-item--theme2 .camp-w-item__icon {
+
+    width: 24px;
+
+    height: 20px;
+
+    margin-bottom: 2px;
+
+  }
+
+  .camp-w-item--theme2 .camp-w-item__subtitle {
+
+    font-size: 20px;
+
+    margin-top: 0.25em;
+
+  }
+
+  .camp-w-item--theme2.camp-w-item:first-child .camp-w-item__subtitle {
+
+    margin-left: 6px;
+
+  }
+
+}
+
+
+
+.camp-packages {
+
+  margin-top: 86px;
+
+  padding-bottom: 17px;
+
+}
+
+
+
+.camp-packages__title {
+
+  font-family: "Arial Black", sans-serif;
+
+  font-size: 26px;
+
+  line-height: 1.2em;
+
+  padding-left: 17px;
+
+}
+
+
+
+.camp-packages__month {
+
+  font-family: "Arial Black", sans-serif;
+
+  font-size: 26px;
+
+  line-height: 1.2em;
+
+  border-bottom: 1px solid #000;
+
+  padding-bottom: 5px;
+
+}
+
+
+
+.camp-packages-content {
+
+  display: flex;
+
+  flex-direction: row;
+
+  width: 100%;
+
+  flex-wrap: nowrap;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+}
+
+
+
+.camp-packages-content__small {
+
+  font-size: 16px;
+
+}
+
+
+
+.camp-packages-content__l {
+
+  width: 50%;
+
+}
+
+
+
+.camp-packages-content__r {
+
+  width: 50%;
+
+  padding-top: 11px;
+
+  padding-left: 27px;
+
+}
+
+
+
+.camp-packages-list1 {
+
+  position: relative;
+
+}
+
+
+
+.camp-packages-list1:after {
+
+  content: '';
+
+  display: block;
+
+  width: 1px;
+
+  position: absolute;
+
+  top: 0;
+
+  bottom: 0;
+
+  left: 50%;
+
+  background-color: #000;
+
+}
+
+
+
+.camp-package1 {
+
+  font-size: 26px;
+
+  line-height: 1.2em;
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+  width: 100%;
+
+  margin-bottom: 14px;
+
+}
+
+
+
+.camp-package1__cost {
+
+  font-size: 24px;
+
+  width: 50%;
+
+  padding-left: 20px;
+
+}
+
+
+
+.camp-package1__title {
+
+  width: 50%;
+
+  padding-left: 27px;
+
+}
+
+
+
+.camp-package1__discount {
+
+  font-size: 18px;
+
+}
+
+
+
+.camp-package1__currency {
+
+  font-size: 16px;
+
+  position: relative;
+
+  top: -7px;
+
+}
+
+
+
+.camp-package {
+
+  display: flex;
+
+  width: 100%;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+  margin-top: 10px;
+
+}
+
+
+
+.camp-package__days {
+
+  width: 106px;
+
+  flex-shrink: 0;
+
+  font-size: 20px;
+
+  line-height: 1.2em;
+
+  padding-top: 1px;
+
+}
+
+
+
+.camp-package__title {
+
+  width: calc(100% - 106px);
+
+  font-family: "Arial Black", sans-serif;
+
+  color: #fff;
+
+  padding-top: 5px;
+
+  padding-bottom: 4px;
+
+  padding-left: 15px;
+
+  padding-right: 10px;
+
+}
+
+
+
+.camp-package__title.green {
+
+  background-color: rgba(122, 193, 67, 0.7);
+
+}
+
+
+
+.camp-package__title.pink {
+
+  background-color: rgba(237, 56, 109, 0.7);
+
+}
+
+
+
+.camp-package__title.blue {
+
+  background-color: rgba(75, 106, 178, 0.7);
+
+}
+
+
+
+.camp-package__title.brown {
+
+  background-color: rgba(234, 106, 55, 0.7);
+
+}
+
+
+
+.camp-page--single .camp-packages {
+
+  margin-top: 26px;
+
+  padding-bottom: 59px;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .camp-packages__title {
+
+    padding-left: 0;
+
+  }
+
+  .camp-packages-content {
+
+    flex-direction: column;
+
+  }
+
+  .camp-packages-content__l {
+
+    width: 100%;
+
+  }
+
+  .camp-packages-content__r {
+
+    width: 100%;
+
+    padding-left: 0;
+
+    margin-top: 30px;
+
+  }
+
+  .camp-packages-list1 {
+
+    margin-top: 10px;
+
+  }
+
+  .camp-package1 {
+
+    font-size: 24px;
+
+  }
+
+  .camp-package1__title {
+
+    padding-left: 15px;
+
+  }
+
+  .camp-package1__cost {
+
+    font-size: 20px;
+
+  }
+
+}
+
+
+
+.camp-learn {
+
+  background-color: #e5f4f9;
+
+  padding-top: 21px;
+
+  padding-bottom: 31px;
+
+}
+
+
+
+.camp-learn__grid {
+
+  margin-top: 36px;
+
+}
+
+
+
+.camp-learn__grid-in {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+
+  align-items: flex-start;
+
+  width: 100%;
+
+}
+
+
+
+.camp-learn-item {
+
+  width: 230px;
+
+  margin-top: 14px;
+
+}
+
+
+
+.camp-learn-item:nth-child(1), .camp-learn-item:nth-child(2) {
+
+  margin-top: 0;
+
+}
+
+
+
+.camp-learn-item__skill {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  justify-content: center;
+
+  text-align: left;
+
+  min-height: 142px;
+
+  width: 100%;
+
+  font-size: 30px;
+
+  line-height: 37px;
+
+  color: #fff;
+
+  padding-left: 15px;
+
+  padding-right: 15px;
+
+}
+
+
+
+.camp-learn-item__skill .smaller {
+
+  font-size: 24px;
+
+}
+
+
+
+.camp-learn-item__skill.green {
+
+  background-color: #1d6031;
+
+}
+
+
+
+.camp-learn-item__skill.blue {
+
+  background-color: #303676;
+
+}
+
+
+
+.camp-learn-item__skill.red {
+
+  background-color: #ee244b;
+
+}
+
+
+
+.camp-learn-item__skill.yellow {
+
+  background-color: #f3ba19;
+
+  color: #000;
+
+}
+
+
+
+.camp-learn-item__subjects {
+
+  font-size: 26px;
+
+  line-height: 1.2em;
+
+  margin-top: 11px;
+
+  text-align: center;
+
+}
+
+
+
+.camp-learn-item__subjects-descr {
+
+  font-size: 12px;
+
+  line-height: 18px;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .camp-learn__grid-in {
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+  }
+
+  .camp-learn-item {
+
+    margin-top: 30px;
+
+  }
+
+  .camp-learn-item:nth-child(2) {
+
+    margin-top: 30px;
+
+  }
+
+}
+
+
+
+.key-benefit {
+
+  background-color: #fffad1;
+
+  padding-top: 30px;
+
+  padding-bottom: 30px;
+
+}
+
+
+
+.key-benefit .camp-title-with-icon {
+
+  padding-left: 79px;
+
+  margin-bottom: 23px;
+
+}
+
+
+
+.key-benefit__main {
+
+  padding-bottom: 30px;
+
+  padding-left: 45px;
+
+}
+
+
+
+.key-benefit__why .key-benefit__subtitle {
+
+  padding-left: 20px;
+
+}
+
+
+
+.key-benefit__subtitle {
+
+  font-size: 26px;
+
+  line-height: 1.2em;
+
+}
+
+
+
+.key-benefit-list1__inner {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  width: 100%;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+}
+
+
+
+.key-benefit-list1-item {
+
+  width: 50%;
+
+  margin-top: 48px;
+
+}
+
+
+
+.key-benefit-list1-item__inner {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  align-items: center;
+
+  justify-content: flex-start;
+
+}
+
+
+
+.key-benefit-list1-item__icon {
+
+  flex-shrink: 0;
+
+  width: 72px;
+
+  text-align: center;
+
+  font-size: 0;
+
+  line-height: 0;
+
+}
+
+
+
+.key-benefit-list1-item__text {
+
+  padding-left: 20px;
+
+  font-size: 20px;
+
+  line-height: 1.2em;
+
+}
+
+
+
+.key-benefit-list2 {
+
+  margin-top: 18px;
+
+}
+
+
+
+.key-benefit-list2__inner {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  margin-left: -25px;
+
+  margin-right: -25px;
+
+}
+
+
+
+.key-benefit-list2-item {
+
+  width: 33.33%;
+
+  padding: 0 25px;
+
+}
+
+
+
+.key-benefit-list2-item__circle {
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  border-radius: 50%;
+
+  width: 110px;
+
+  height: 110px;
+
+  background-color: #ed386d;
+
+  font-family: "Arial Black", sans-serif;
+
+  color: #231f20;
+
+  font-size: 60px;
+
+  line-height: 1.2em;
+
+}
+
+
+
+.key-benefit-list2-item__circle.item2 {
+
+  font-size: 42px;
+
+}
+
+
+
+.key-benefit-list2-item__circle.item3 {
+
+  font-size: 36px;
+
+  text-align: left;
+
+  padding-left: 0.3em;
+
+}
+
+
+
+.key-benefit-list2-item__descr {
+
+  font-size: 16px;
+
+  line-height: 1.2em;
+
+  margin-top: 18px;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .key-benefit__main {
+
+    padding-left: 0;
+
+    padding-bottom: 48px;
+
+  }
+
+  .key-benefit .camp-title-with-icon {
+
+    margin-left: 0;
+
+    padding-left: 0;
+
+  }
+
+  .key-benefit__subtitle {
+
+    font-size: 22px;
+
+    padding-left: 0;
+
+    margin-left: 0;
+
+  }
+
+  .key-benefit__why .key-benefit__subtitle {
+
+    padding-left: 0;
+
+    margin-left: 0;
+
+  }
+
+  .key-benefit-list1-item {
+
+    width: 100%;
+
+  }
+
+  .key-benefit-list2-item {
+
+    width: 100%;
+
+    margin-top: 48px;
+
+  }
+
+  .key-benefit-list2-item:first-child {
+
+    margin-top: 30px;
+
+  }
+
+  .key-benefit-list2-item__circle {
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  }
+
+}
+
+
+
+.camp-week-content-section {
+
+  padding: 40px 20px 32px 38px;
+
+  overflow: hidden;
+
+}
+
+
+
+.camp-week-content-section.item1 {
+
+  background-color: #dee9a5;
+
+}
+
+
+
+.camp-week-content-section.item1 .camp-week-content-img {
+
+  width: 162px;
+
+}
+
+
+
+.camp-week-content-section.item2 {
+
+  background-color: #f1daea;
+
+  padding-bottom: 0;
+
+}
+
+
+
+.camp-week-content-section.item2 .camp-week-content-img {
+
+  width: 175px;
+
+}
+
+
+
+.camp-week-content-section.item3 {
+
+  background-color: #e5f4f9;
+
+  padding-bottom: 0;
+
+}
+
+
+
+.camp-week-content-section.item3 .camp-week-content-img {
+
+  width: 162px;
+
+}
+
+
+
+.camp-week-content-section.item4 {
+
+  background-color: #f9cc1a;
+
+  padding-bottom: 0;
+
+}
+
+
+
+.camp-week-content-section.item4 .camp-week-content-img {
+
+  width: 210px;
+
+}
+
+
+
+.camp-page--single .camp-week-content-section {
+
+  padding-top: 14px;
+
+}
+
+
+
+.camp-page--single .camp-week-content-section.item1 {
+
+  background-color: #e8f0bf;
+
+}
+
+
+
+.camp-week-top-heading {
+
+  position: relative;
+
+  font-family: "Arial Black", sans-serif;
+
+  font-size: 30px;
+
+  line-height: 1.2em;
+
+  padding-left: 73px;
+
+  padding-top: 6px;
+
+  margin: 0 0 12px;
+
+}
+
+
+
+.camp-week-top-heading:before {
+
+  content: '';
+
+  display: block;
+
+  width: 59px;
+
+  height: 45px;
+
+  background: transparent url("./brain-icon.svg") no-repeat 0 0;
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+}
+
+
+
+.camp-week-top-subheading {
+
+  font-size: 26px;
+
+  line-height: 1.2em;
+
+  padding-left: 9px;
+
+}
+
+
+
+.camp-week-content-h1 {
+
+  font-family: "Arial Black", sans-serif;
+
+  font-size: 40px;
+
+  line-height: 1.2em;
+
+  margin: 37px 0 12px;
+
+  padding-left: 20px;
+
+}
+
+
+
+.camp-page--single .camp-week-content-h1 {
+
+  font-size: 72px;
+
+  margin-top: 0;
+
+  margin-bottom: 43px;
+
+}
+
+
+
+.camp-page--single .camp-week-content-h1-type2 {
+
+  font-size: 40px;
+
+  margin-top: 0;
+
+  margin-bottom: 43px;
+
+}
+
+
+
+.camp-week-content-subheading {
+
+  padding-left: 20px;
+
+  font-size: 30px;
+
+  line-height: 1.2em;
+
+}
+
+
+
+.camp-week-content-text {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  width: 100%;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+  margin-top: 30px;
+
+}
+
+
+
+.camp-week-content-text__l {
+
+  flex-shrink: 0;
+
+  padding-top: 19px;
+
+}
+
+
+
+.camp-week-content-text__r {
+
+  font-size: 16px;
+
+  line-height: 20px;
+
+  font-family: "Arial", sans-serif;
+
+  font-weight: normal;
+
+  padding-left: 36px;
+
+}
+
+
+
+.camp-week-content-text__r p {
+
+  margin: 0 0 20px;
+
+}
+
+
+
+.camp-week-content-text__r ul {
+
+  list-style: none;
+
+  margin: 10px 0 39px;
+
+  padding: 0;
+
+}
+
+
+
+.camp-week-content-text__r ul li {
+
+  position: relative;
+
+  padding-left: 20px;
+
+  font-size: 16px;
+
+  line-height: 18px;
+
+}
+
+
+
+.camp-week-content-text__r ul li:before {
+
+  content: '';
+
+  display: block;
+
+  width: 8px;
+
+  height: 8px;
+
+  position: absolute;
+
+  top: 5px;
+
+  left: 0;
+
+  background-color: #231f20;
+
+  border-radius: 50%;
+
+}
+
+
+
+.camp-week-content-text__h2 {
+
+  font-family: "Arial Black", sans-serif;
+
+  font-size: 22px;
+
+  line-height: 1.2em;
+
+  margin: 0 0 0;
+
+}
+
+
+
+.camp-week-content-img {
+
+  font-size: 0;
+
+  line-height: 0;
+
+  position: relative;
+
+}
+
+
+
+.camp-week-content-img__label {
+
+  display: inline-block;
+
+  vertical-align: baseline;
+
+  background-color: #5056a5;
+
+  color: #fff;
+
+  font-family: "Arial", sans-serif;
+
+  font-size: 10px;
+
+  line-height: 1.2em;
+
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  position: absolute;
+
+  top: 16px;
+
+  right: 0;
+
+  padding: 5px 5px 3px;
+
+}
+
+
+
+.camp-week-videos-item {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  width: 100%;
+
+  justify-content: flex-start;
+
+  align-items: center;
+
+  margin-top: 24px;
+
+}
+
+
+
+.camp-week-videos-item:first-child {
+
+  margin-top: 0;
+
+}
+
+
+
+.camp-week-videos-item__frame {
+
+  font-size: 0;
+
+  line-height: 0;
+
+  width: 300px;
+
+}
+
+
+
+.camp-week-videos-item__frame iframe {
+
+  width: 100%;
+
+  height: 180px;
+
+}
+
+
+
+.camp-week-videos-item__title {
+
+  padding-left: 48px;
+
+  font-size: 30px;
+
+  line-height: 1.2em;
+
+}
+
+
+
+.camp-week-videos-item__title--sm {
+
+  font-size: 24px;
+
+}
+
+
+
+.camp-week-videos-item--reverse .camp-week-videos-item__frame {
+
+  order: 2;
+
+  margin-left: auto;
+
+}
+
+
+
+.camp-week-videos-item--reverse .camp-week-videos-item__title {
+
+  order: 1;
+
+  padding-left: 24px;
+
+  padding-right: 48px;
+
+}
+
+
+
+.camp-week-videos {
+
+  padding-left: 18px;
+
+  margin-top: 48px;
+
+}
+
+
+
+.camp-week-content-arrow {
+
+  display: block;
+
+  position: relative;
+
+  margin-top: 41px;
+
+  margin-bottom: 32px;
+
+}
+
+
+
+.camp-week-content-arrow:before {
+
+  content: '';
+
+  display: block;
+
+  content: '';
+
+  display: block;
+
+  width: 0;
+
+  height: 0;
+
+  border-style: solid;
+
+  border-width: 18px 12px 0 12px;
+
+  border-color: #231f20 transparent transparent transparent;
+
+  margin: 7px auto 0;
+
+  transform: rotate(0deg);
+
+  transition: transform .3s ease;
+
+}
+
+
+
+.camp-week-content-arrow.active:before {
+
+  transform: rotate(180deg);
+
+}
+
+
+
+.camp-week-content-additional {
+
+  margin-left: -38px;
+
+  margin-right: -20px;
+
+  display: none;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .camp-week-content-section {
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+    padding-top: 30px;
+
+  }
+
+  .camp-week-content-h1 {
+
+    font-size: 32px;
+
+    padding-left: 0;
+
+  }
+
+  .camp-week-content-subheading {
+
+    padding-left: 0;
+
+    font-size: 24px;
+
+  }
+
+  .camp-week-content-text {
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+    align-items: flex-start;
+
+  }
+
+  .camp-week-content-text__l {
+
+    width: 100%;
+
+  }
+
+  .camp-week-content-text__r {
+
+    padding-left: 0;
+
+    width: 100%;
+
+    margin-top: 30px;
+
+  }
+
+  .camp-week-videos {
+
+    padding-left: 0;
+
+  }
+
+  .camp-week-videos-item {
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    justify-content: flex-start;
+
+    margin-top: 48px;
+
+  }
+
+  .camp-week-videos-item:first-child {
+
+    margin-top: 0;
+
+  }
+
+  .camp-week-videos-item__title {
+
+    padding-left: 0;
+
+    padding-top: 15px;
+
+    font-size: 26px;
+
+  }
+
+  .camp-week-videos-item--reverse .camp-week-videos-item__frame {
+
+    order: 1;
+
+  }
+
+  .camp-week-videos-item--reverse .camp-week-videos-item__title {
+
+    order: 2;
+
+    padding-left: 0;
+
+  }
+
+
+
+  .camp-week-videos-item__frame {
+
+    width: 100%;
+
+  }
+
+}
+
+
+
+.camp-week-video-header {
+
+  margin-top: 50px;
+
+}
+
+
+
+.camp-week-video-header__text {
+
+  font-family: "Arial Black", sans-serif;
+
+  font-size: 40px;
+
+  line-height: 1.2em;
+
+  color: #231f20;
+
+}
+
+
+
+.camp-week-video-header__subheading {
+
+  font-size: 30px;
+
+  line-height: 1.2em;
+
+  margin-top: 0;
+
+}
+
+
+
+.camp-page--single .camp-weeks-section {
+
+  background-color: #f7ca32;
+
+  padding-top: 55px;
+
+}
+
+
+
+.camp-page--single .camp-week-content-section.item2 {
+
+  padding-bottom: 32px;
+
+}
+
+
+
+.camp-videos-wrapper {
+
+  background-color: #e8f0bf;
+
+  overflow: hidden;
+
+  padding-bottom: 40px;
+
+}
+
+
+
+.camp-videos-wrapper .camp-intro__heading-with-icon {
+
+  margin-top: 50px;
+
+}
+
+
+
+.camp-videos-wrapper .camp-intro__heading-with-icon-sm {
+
+  font-size: 30px;
+
+  line-height: 1.2em;
+
+  margin-top: 0;
+
+}
+
+
+
+.camp-page .faq-section__title.faq-section__title--arial {
+
+  font-family: "Arial Black", sans-serif;
+
+    font-size: 40px;
+
+    line-height: 1.2em;
+
+}
+
+
+
+.camp-page .blue-section {
+
+  font-family: "Arial Rounded MT Bold", sans-serif;
+
+}
+
+
+
+.blue-section.meet-our-teachers .camp-title-with-icon {
+
+  margin-bottom: 23px;
+
+}
+
+
+
+.blue-section.meet-our-teachers .key-benefit__subtitle {
+
+  margin-bottom: 1.85em;
+
+}
+
+
+
+.blue-section.approach-english .camp-title-with-icon {
+
+  margin-bottom: 23px;
+
+}
+
+
+
+.blue-section.approach-english .key-benefit__subtitle {
+
+  margin-bottom: 1.85em;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .camp-page--single .camp-week-content-h1 {
+
+    font-size: 32px;
+
+  }
+
+
+
+  .camp-page--single .camp-week-content-h1-type2 {
+
+    font-size: 32px;
+
+  }
+
+}
+
+
+
+.camp-key-feature {
+
+  padding: 32px 35px 48px;
+
+}
+
+
+
+.camp-key-feature.item2 {
+
+  background-color: #f1daea;
+
+  padding-top: 0;
+
+}
+
+
+
+.camp-key-feature.item3 {
+
+  background-color: #eeeeca;
+
+}
+
+
+
+.camp-key-feature.item4 {
+
+  padding-top: 0;
+
+}
+
+
+
+.camp-key-feature__title {
+
+  font-family: "Arial Black", sans-serif;
+
+  font-size: 40px;
+
+  line-height: 1.2em;
+
+  margin-bottom: 12px;
+
+}
+
+
+
+.camp-key-feature__title .text-small {
+
+  font-size: 24px;
+
+  line-height: 1.2em;
+
+  display: block;
+
+}
+
+
+
+.camp-key-feature__subtitle {
+
+  font-size: 24px;
+
+  line-height: 1.2em;
+
+}
+
+
+
+.camp-feature-cover-container {
+
+  padding: 0 50px;
+
+}
+
+
+
+.camp-feature-cover-title {
+
+  font-family: "Arial Black", sans-serif;
+
+  font-size: 24px;
+
+  line-height: 1.2em;
+
+  margin: 0 0 8px;
+
+}
+
+
+
+.camp-feature-cover-item {
+
+  border-bottom: 1px solid #000;
+
+  margin-top: 21px;
+
+  padding-bottom: 50px;
+
+}
+
+
+
+.camp-feature-cover-item:last-child {
+
+  border-bottom: none;
+
+}
+
+
+
+.camp-feature-cover-item__title {
+
+  font-size: 36px;
+
+  line-height: 1.2em;
+
+  margin-bottom: 10px;
+
+}
+
+
+
+.camp-feature-cover-item__subtitle {
+
+  font-size: 22px;
+
+  line-height: 1.2em;
+
+}
+
+
+
+.camp-feature-cover-item__single-img {
+
+  max-width: 400px;
+
+  margin-top: 60px;
+
+}
+
+
+
+.camp-feature-cover-list {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  width: 100%;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+}
+
+
+
+.camp-feature-cover-list__item {
+
+  width: 50%;
+
+  margin-top: 40px;
+
+}
+
+
+
+.camp-feature-cover-list__item.item1 .camp-feature-cover-list__item-img img {
+
+  max-width: 88px;
+
+}
+
+
+
+.camp-feature-cover-list__item.item2 .camp-feature-cover-list__item-img img {
+
+  max-width: 270px;
+
+  margin-top: 20px;
+
+}
+
+
+
+.camp-feature-cover-list__item.item3 .camp-feature-cover-list__item-img img {
+
+  max-width: 180px;
+
+  margin-top: 12px;
+
+}
+
+
+
+.camp-feature-cover-list__item.item4 .camp-feature-cover-list__item-img img {
+
+  max-width: 150px;
+
+}
+
+
+
+.camp-feature-cover-list__item-title {
+
+  font-size: 26px;
+
+  line-height: 1.2em;
+
+}
+
+
+
+.camp-feature-cover-item__elem2 {
+
+  font-size: 22px;
+
+  line-height: 30px;
+
+  font-family: "Arial", sans-serif;
+
+  font-weight: normal;
+
+}
+
+
+
+.camp-feature-cover-item__elem2-line1 {
+
+  margin-bottom: 10px;
+
+}
+
+
+
+.camp-feature-cover-item__elem2-wrapper {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  width: 100%;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+}
+
+
+
+.camp-feature-cover-item__elem2-l p {
+
+  margin: 0 0 0;
+
+}
+
+
+
+.camp-feature-cover-item__elem2-r {
+
+  margin-left: auto;
+
+  margin-top: -20px;
+
+}
+
+
+
+.camp-feature-cover-item__elem2-r img {
+
+  width: 210px;
+
+}
+
+
+
+.camp-key-feature.camp-key-feature--expanded.item2 {
+
+  padding-top: 35px;
+
+  padding-bottom: 18px;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .camp-key-feature__title {
+
+    font-size: 30px;
+
+    margin-bottom: 20px;
+
+  }
+
+  .camp-key-feature__title .text-small {
+
+    font-size: 18px;
+
+    margin-top: 4px;
+
+  }
+
+  .camp-key-feature__subtitle {
+
+    font-size: 20px;
+
+  }
+
+  .camp-feature-cover-container {
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+  }
+
+  .camp-week-content-additional {
+
+    margin-left: -15px;
+
+    margin-right: -15px;
+
+  }
+
+  .camp-feature-cover-title {
+
+    margin-bottom: 48px;
+
+  }
+
+  .camp-feature-cover-item__title {
+
+    font-size: 26px;
+
+  }
+
+  .camp-feature-cover-item__subtitle {
+
+    font-size: 18px;
+
+  }
+
+  .camp-feature-cover-list {
+
+    flex-direction: column;
+
+  }
+
+  .camp-feature-cover-list__item {
+
+    width: 100%;
+
+  }
+
+  .camp-feature-cover-list__item-title {
+
+    margin-bottom: 5px;
+
+  }
+
+  .camp-feature-cover-item__elem2-line1 {
+
+    margin-bottom: 20px;
+
+  }
+
+  .camp-feature-cover-item__elem2-wrapper {
+
+    flex-direction: column;
+
+  }
+
+  .camp-feature-cover-item__elem2-r {
+
+    margin-top: 0;
+
+  }
+
+  .camp-feature-cover-item__elem2 {
+
+    margin-top: 30px;
+
+    font-size: 18px;
+
+    line-height: 26px;
+
+  }
+
+}
+
+
+
+.camp-benefit-section {
+
+  background-color: #fff;
+
+  padding-left: 40px;
+
+  padding-right: 40px;
+
+  padding-bottom: 40px;
+
+}
+
+
+
+.camp-benefit-card {
+
+  padding-top: 29px;
+
+  margin-top: 30px;
+
+}
+
+
+
+.camp-benefit-card:first-child {
+
+  margin-top: 0;
+
+}
+
+
+
+.camp-benefit-card__top {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  width: 100%;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+  margin-bottom: 41px;
+
+}
+
+
+
+.camp-benefit-card__top-l {
+
+  padding-right: 48px;
+
+  padding-top: 11px;
+
+}
+
+
+
+.camp-benefit-card__top-r {
+
+  font-size: 0;
+
+  line-height: 0;
+
+  text-align: right;
+
+  margin-left: auto;
+
+  flex-shrink: 0;
+
+}
+
+
+
+.camp-benefit-card__top-r img {
+
+  max-width: 100%;
+
+}
+
+
+
+.camp-benefit-card__top-text {
+
+  font-family: "Arial", sans-serif;
+
+  font-weight: normal;
+
+  font-size: 16px;
+
+  line-height: 18px;
+
+}
+
+
+
+.camp-benefit-card__top-text p {
+
+  margin: 0 0 18px;
+
+}
+
+
+
+.camp-benefit-card__top-text p:last-child {
+
+  margin-bottom: 0;
+
+}
+
+
+
+.camp-benefit-card__middle {
+
+  font-family: "Arial", sans-serif;
+
+  font-weight: normal;
+
+  font-size: 16px;
+
+  line-height: 18px;
+
+}
+
+
+
+.camp-benefit-card__middle p {
+
+  margin: 0 0 18px;
+
+}
+
+
+
+.camp-benefit-card__middle p:last-child {
+
+  margin-bottom: 0;
+
+}
+
+
+
+.camp-benefit-card__additional-wrap {
+
+  margin-top: 33px;
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  width: 100%;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+}
+
+
+
+.camp-benefit-card__additional-l {
+
+  font-family: "Arial", sans-serif;
+
+  font-weight: normal;
+
+  font-size: 16px;
+
+  line-height: 18px;
+
+  padding-right: 36px;
+
+  padding-top: 4px;
+
+}
+
+
+
+.camp-benefit-card__additional-l p {
+
+  margin: 0 0 18px;
+
+}
+
+
+
+.camp-benefit-card__additional-l p:last-child {
+
+  margin-bottom: 0;
+
+}
+
+
+
+.camp-benefit-card__additional-r {
+
+  flex-shrink: 0;
+
+  font-size: 0;
+
+  line-height: 0;
+
+  margin-left: auto;
+
+}
+
+
+
+.camp-benefit-card:nth-child(2n) .camp-benefit-card__top-l {
+
+  order: 2;
+
+  padding-left: 21px;
+
+  padding-right: 0;
+
+}
+
+
+
+.camp-benefit-card:nth-child(2n) .camp-benefit-card__top-r {
+
+  order: 1;
+
+}
+
+
+
+.camp-benefit-card-header {
+
+  margin-bottom: 27px;
+
+  padding-left: 21px;
+
+}
+
+
+
+.camp-benefit-card-header__pre-line {
+
+  font-size: 26px;
+
+  line-height: 1.1em;
+
+  margin-bottom: 1px;
+
+}
+
+
+
+.camp-benefit-card-header__pre-line:after {
+
+  content: '';
+
+  display: inline-block;
+
+  vertical-align: bottom;
+
+  width: 53px;
+
+  height: 41px;
+
+  background: transparent url("./brain-icon.svg") no-repeat 0 0;
+
+  background-size: contain;
+
+  margin-left: 14px;
+
+  position: relative;
+
+  top: 3px;
+
+}
+
+
+
+.camp-benefit-card-header__title {
+
+  font-family: "Arial Black", sans-serif;
+
+  font-size: 28px;
+
+  line-height: 1.2em;
+
+  margin-bottom: 8px;
+
+}
+
+
+
+.camp-benefit-card-header__subtitle {
+
+  font-size: 24px;
+
+  line-height: 1.125em;
+
+}
+
+
+
+.camp-benefit-card.item1 .camp-benefit-card__top-l {
+
+  padding-left: 0;
+
+  padding-top: 0;
+
+}
+
+
+
+.camp-benefit-card.item1 .camp-benefit-card__top-r {
+
+  padding-top: 51px;
+
+}
+
+
+
+.camp-benefit-card.item1 .camp-benefit-card-header {
+
+  padding-left: 0;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .camp-benefit-section {
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+  }
+
+  .camp-benefit-card {
+
+    margin-top: 0;
+
+  }
+
+  .camp-benefit-card__top {
+
+    flex-direction: column;
+
+  }
+
+  .camp-benefit-card__top-l {
+
+    padding-right: 30px;
+
+  }
+
+  .camp-benefit-card__top-r {
+
+    margin-left: 0;
+
+    text-align: left;
+
+    width: 100%;
+
+    margin-top: 30px;
+
+  }
+
+  .camp-benefit-card__additional-wrap {
+
+    flex-direction: column;
+
+  }
+
+  .camp-benefit-card__additional-l {
+
+    order: 2;
+
+    margin-top: 30px;
+
+  }
+
+  .camp-benefit-card__additional-r {
+
+    order: 1;
+
+    margin-left: 0;
+
+    text-align: left;
+
+  }
+
+  .camp-benefit-card:nth-child(2n) .camp-benefit-card__top-l {
+
+    order: 1;
+
+    padding-right: 21px;
+
+    padding-left: 0;
+
+  }
+
+  .camp-benefit-card:nth-child(2n) .camp-benefit-card__top-r {
+
+    order: 2;
+
+  }
+
+  .camp-benefit-card.item1 .camp-benefit-card__top-l {
+
+    padding-left: 0;
+
+    padding-top: 0;
+
+  }
+
+  .camp-benefit-card.item1 .camp-benefit-card__top-r {
+
+    padding-top: 10px;
+
+  }
+
+  .camp-benefit-card.item1 .camp-benefit-card-header {
+
+    padding-left: 0;
+
+  }
+
+}
+
+
+
+.camp-success-wrapper {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  width: 100%;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+}
+
+
+
+.camp-success {
+
+  background-color: #e5f4f9;
+
+  padding-left: 30px;
+
+  padding-right: 30px;
+
+  padding-top: 20px;
+
+  padding-bottom: 30px;
+
+}
+
+
+
+.camp-success__l {
+
+  width: 50%;
+
+  padding-right: 15px;
+
+}
+
+
+
+.camp-success__r {
+
+  width: 50%;
+
+  padding-left: 15px;
+
+}
+
+
+
+.camp-success-top {
+
+  margin-bottom: 24px;
+
+  padding-left: 20px;
+
+  padding-right: 20px;
+
+}
+
+
+
+.camp-success-top__title {
+
+  font-family: "Arial Black", sans-serif;
+
+  font-size: 40px;
+
+  line-height: 1.2em;
+
+  border-bottom: 1px solid #231f20;
+
+  padding-bottom: 13px;
+
+}
+
+
+
+.camp-success-top__descr {
+
+  font-family: "Arial", sans-serif;
+
+  font-weight: normal;
+
+  margin-top: 4px;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .camp-success {
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+  }
+
+  .camp-success__l {
+
+    width: 100%;
+
+    padding-right: 0;
+
+  }
+
+  .camp-success__r {
+
+    width: 100%;
+
+    padding-left: 0;
+
+  }
+
+  .camp-success__r .achievers-table {
+
+    margin-top: 0;
+
+  }
+
+  .camp-success-top {
+
+    padding-left: 0;
+
+    padding-right: 0;
+
+  }
+
+  .camp-success-top__title {
+
+    font-size: 30px;
+
+  }
+
+  .camp-success-top__descr {
+
+    margin-top: 20px;
+
+  }
+
+  .camp-success-wrapper {
+
+    flex-direction: column;
+
+  }
+
+}
+
+
+
+
+
+.camp-page .faq-section__title {
+
+  font-family: "CalisMTBol", "Calisto MT", serif;
+
+  font-size: 40px;
+
+  line-height: 1.2em;
+
+  color: #010101;
+
+  font-weight: 700;
+
+  margin: 0 0 1.2em;
+
+  padding: 0;
+
+  text-align: left;
+
+}
+
+
+
+.faq-section-item__a {
+
+  font-family: 'Times New Roman', serif;
+
+  font-weight: 400;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  .camp-page .faq-section__title {
+
+    font-size: 30px;
+
+  }  
+
+}
+
+
+
+.camp-week-collapsible-link a {
+
+  font-family: "Arial Black", sans-serif;
+
+  font-size: 24px;
+
+  line-height: 1.2em;
+
+  margin: 0 0 10px;
+
+  color: #000;
+
+  text-decoration: none;
+
+}
+
+
+
+.camp-week-collapsible-content__inner {
+
+  padding-top: 30px;
+
+}
+
+
+
+
+
+/* Einstein styles */
+
+.blue-section {
+
+  font-family: Century, "Times New Roman", serif;
+
+  font-weight: 400;
+
+}
+
+
+
+.english-teacher-card, .lesson-card {
+
+  padding: 0 0px 0 56px;
+
+  max-width: 50%;
+
+}
+
+
+
+.english-teachers-card {
+
+  padding: 0 24px 0 28px;
+
+
+
+}
+
+
+
+.english-teachers-name {
+
+  margin-bottom: 21px;
+
+  font-size: 21px;
+
+  font-weight: 700;
+
+}
+
+
+
+
+
+.english-teachers {
+
+  display: flex;
+
+  border-bottom: 2px solid black;
+
+}
+
+
+
+.english-teacher-photo img {
+
+    max-width: 68px;
+
+}
+
+
+
+
+
+.english-teacher-video, .lesson-video {
+
+  width: 464px;
+
+}
+
+
+
+.english-teacher-name, .lesson-description {
+
+  margin-bottom: 41px;
+
+  font-size: 31px;
+
+  line-height: 1.2em;
+
+}
+
+
+
+.english-teacher, .lesson {
+
+  display: flex;
+
+  /*flex-direction: row;*/
+
+  /*width: 100%;*/
+
+  /*flex-wrap: nowrap;*/
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+
+
+.enroll {
+
+  padding-top: 50px;
+
+}
+
+
+
+.blue-section {
+
+  background-color: #58cbf4;
+
+  padding-left: 32px;
+
+  padding-right: 32px;
+
+  padding-top: 32px;
+
+  padding-bottom: 18px;
+
+}
+
+
+
+.yellow-section {
+
+  background-color: #FBFCE8;
+
+  padding-left: 32px;
+
+  padding-right: 32px;
+
+  padding-top: 32px;
+
+}
+
+
+
+.blue-section-title, .yellow-section-title {
+
+  /*width: 252px;*/
+
+  /* flex-shrink: 0; */
+
+  font-size: 54px;
+
+  line-height: 1.2em;
+
+  margin-bottom: 30px;
+
+}
+
+
+
+.blue-section-subtitle {
+
+  font-size: 26px;
+
+  line-height: 1.2em;
+
+  margin-bottom: 1.5em;
+
+}
+
+
+
+.enrol__phone {
+
+  padding: 0 34px;
+
+}
+
+
+
+.enrol-section {
+
+  padding-left: 24px;
+
+  background-color: #26387e;
+
+  color: white;
+
+  display: flex;
+
+  flex-direction: row;
+
+  width: 100%;
+
+  flex-wrap: nowrap;
+
+  /*justify-content: flex-start;*/
+
+  /*align-items: flex-start;*/
+
+
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 0 40px;
+
+}
+
+
+
+.enrol__phone  a {
+
+  color: white;
+
+  text-decoration: none;
+
+  transition: color 0.25s ease;
+
+  font-size: 50px;
+
+  line-height: 60px;
+
+  font-weight: normal;
+
+  margin-bottom: 24px;
+
+}
+
+
+
+.enrol__email {
+
+  font-size: 40px;
+
+  line-height: 60px;
+
+  font-weight: normal;
+
+  /*margin-bottom: 24px;*/
+
+
+
+}
+
+
+
+.enrol__title1, .enrol__title {
+
+  font-size: 50px;
+
+  line-height: 53px;
+
+  font-weight: normal;
+
+  margin-bottom: 10px;
+
+}
+
+
+
+.enrol__title {
+
+  display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.enroll {
+
+  padding-top: 50px;
+
+}
+
+
+
+.enroll__wrapper {
+
+  display: flex;
+
+  flex-direction: row;
+
+  width: 100%;
+
+  flex-wrap: nowrap;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+}
+
+
+
+.enroll__wrapper--alternative {
+
+  padding-left: 32px;
+
+  padding-right: 32px;
+
+  padding-top: 32px;
+
+  padding-bottom: 48px;
+
+}
+
+
+
+.enroll__wrapper--alternative .enroll__heading {
+
+  margin-bottom: 1em;
+
+}
+
+
+
+.enroll__l {
+
+  flex-shrink: 0;
+
+  width: 245px;
+
+  padding-right: 60px;
+
+}
+
+
+
+.enroll__grey-box {
+
+  border: 1px solid #ababab;
+
+  border-radius: 4px;
+
+  padding: 0 10px 14px;
+
+  position: relative;
+
+}
+
+
+
+.enroll__grey-box:after {
+
+  content: '';
+
+  position: absolute;
+
+  top: 0;
+
+  bottom: 0;
+
+  right: -30px;
+
+  width: 1px;
+
+  background-color: #1d1e1e;
+
+}
+
+
+
+.enroll__title1 {
+
+  font-size: 50px;
+
+  line-height: 60px;
+
+  font-weight: normal;
+
+  margin-bottom: 24px;
+
+}
+
+
+
+.enroll__phone {
+
+  font-size: 22px;
+
+  line-height: 1em;
+
+}
+
+
+
+.enroll__phone a {
+
+  color: #000;
+
+  text-decoration: none;
+
+}
+
+
+
+.enroll__phone a:hover {
+
+  color: #000;
+
+  text-decoration: none;
+
+}
+
+
+
+.enroll__heading {
+
+  font-size: 50px;
+
+  line-height: 1.2em;
+
+  margin-bottom: 0.5em;
+
+}
+
+
+
+.enroll__subheading2 {
+
+  display: inline-block;
+
+  vertical-align: top;
+
+  font-size: 32px;
+
+  line-height: 1em;
+
+  padding: 0;
+
+  margin-bottom: 0.75em;
+
+  color: #ec9b33;
+
+}
+
+
+
+.enroll__r .list + .enroll__subheading2 {
+
+  margin-top: 1.5em;
+
+}
+
+
+
+@media screen and (max-width: 1170px) {
+
+  /**/
+
+  .enroll__title1 {
+
+    font-size: 40px;
+
+    line-height: 1.2em;
+
+  }
+
+  .enroll__heading {
+
+    font-size: 40px;
+
+    line-height: 1.2em;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .enroll {
+
+    padding-bottom: 24px;
+
+  }
+
+  .enroll__wrapper {
+
+    flex-direction: column;
+
+  }
+
+  .enroll__r {
+
+    width: 100%;
+
+    flex-grow: 0;
+
+    margin-top: 24px;
+
+  }
+
+  .enroll__grey-box:after {
+
+    display: none;
+
+    content: unset;
+
+  }
+
+
+
+  .english-teacher {
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+    align-items: flex-start;
+
+  }
+
+
+
+  .english-teacher-card {
+
+    padding: 27px 47px 0 0px;
+
+    max-width: 76%;
+
+  }
+
+
+
+  .english-teachers-card {
+
+    /*padding-top: 30px;*/
+
+    /*padding-left: 0;*/
+
+
+
+    padding: 30px 49px 0 0;
+
+
+
+  }
+
+
+
+  .english-teachers {
+
+    margin-top: 32px;
+
+  }
+
+
+
+  .enrol-section {
+
+    flex-direction: column;
+
+  }
+
+
+
+  .enrol__title {
+
+    display: block;
+
+  }
+
+
+
+  .enrol__title1{
+
+    display: none;
+
+  }
+
+
+
+  .enrol__phone a {
+
+    font-size: 38px;
+
+  }
+
+  .enrol__phone {
+
+    padding: 0;
+
+  }
+
+
+
+  .enrol__email {
+
+
+
+    font-size: 24px;
+
+  }
+
+
+
+  .enroll__wrapper--alternative {
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+  }
+
+
+
+}
+
+
+
+.packages {
+
+  padding-top: 19px;
+
+  padding-bottom: 46px;
+
+}
+
+
+
+.packages .list li {
+
+  margin-top: 28px;
+
+}
+
+
+
+.packages .list li:first-child {
+
+  margin-top: 0;
+
+}
+
+
+
+.packages__wrapper {
+
+  display: flex;
+
+  flex-direction: row;
+
+  width: 100%;
+
+  flex-wrap: nowrap;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+}
+
+
+
+.packages__title {
+
+  width: 252px;
+
+  flex-shrink: 0;
+
+  font-size: 54px;
+
+  line-height: 1.2em;
+
+}
+
+
+
+.packages__col1 {
+
+  width: 390px;
+
+  flex-shrink: 0;
+
+  padding-top: 4px;
+
+  padding-right: 48px;
+
+}
+
+
+
+.packages__col2 {
+
+  width: 350px;
+
+  padding-top: 4px;
+
+  padding-right: 0;
+
+}
+
+
+
+.package__name {
+
+  display: inline-block;
+
+  vertical-align: top;
+
+  border: 1px solid #aaa;
+
+  font-size: 41px;
+
+  line-height: 1em;
+
+  padding: 12px 39px 24px 29px;
+
+  margin-bottom: 0.5em;
+
+}
+
+
+
+@media screen and (max-width: 1170px) {
+
+  /**/
+
+  .packages {
+
+    padding-top: 60px;
+
+  }
+
+  .packages__wrapper {
+
+    flex-wrap: wrap;
+
+  }
+
+  .packages__title {
+
+    font-size: 45px;
+
+    line-height: 1.2em;
+
+    width: 100%;
+
+    margin-bottom: 0.5em;
+
+  }
+
+  .packages__col1 {
+
+    width: 50%;
+
+    max-width: 390px;
+
+  }
+
+  .packages__col2 {
+
+    width: 50%;
+
+    max-width: 390px;
+
+  }
+
+  .package {
+
+    width: 100%;
+
+  }
+
+  .package__name {
+
+    font-size: 36px;
+
+    line-height: 1em;
+
+    padding: 10px 30px 15px 15px;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .packages {
+
+    padding-bottom: 60px;
+
+  }
+
+  .packages__col1 {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    margin-top: 20px;
+
+  }
+
+  .packages__col2 {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    margin-top: 50px;
+
+  }
+
+}
+
+
+
+.blue-box {
+
+  border-top: 1px solid #adadad;
+
+  border-bottom: 1px solid #adadad;
+
+}
+
+
+
+.blue-box__wrapper {
+
+  display: flex;
+
+  width: 100%;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  justify-content: flex-start;
+
+  align-items: stretch;
+
+}
+
+
+
+.blue-box__l {
+
+  flex-shrink: 0;
+
+  padding-left: 15px;
+
+  padding-right: 22px;
+
+  padding-top: 25px;
+
+  width: 382px;
+
+}
+
+
+
+.blue-box__r {
+
+  background-color: #59ccf5;
+
+  flex-grow: 1;
+
+  padding-left: 12px;
+
+  padding-right: 12px;
+
+  padding-top: 10px;
+
+  padding-bottom: 35px;
+
+}
+
+
+
+.blue-box__r .list {
+
+  font-size: 22px;
+
+}
+
+
+
+.blue-box__r .list li {
+
+  margin-top: 17px;
+
+}
+
+
+
+.blue-box__r .list li:first-child {
+
+  margin-top: 0;
+
+}
+
+
+
+.blue-box__r-inner {
+
+  width: 325px;
+
+}
+
+
+
+.blue-box__title {
+
+  font-size: 30px;
+
+  line-height: 36px;
+
+  margin-bottom: 0.6em;
+
+}
+
+
+
+.blue-box-cards {
+
+  width: 100%;
+
+  position: relative;
+
+}
+
+
+
+.blue-box-cards:after {
+
+  content: '';
+
+  display: block;
+
+  width: 1px;
+
+  background-color: #717171;
+
+  position: absolute;
+
+  top: 0;
+
+  right: -22px;
+
+  bottom: 22px;
+
+}
+
+
+
+.blue-box-cards__in {
+
+  margin: 0 -11px;
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  justify-content: flex-start;
+
+  align-items: stretch;
+
+}
+
+
+
+.blue-box-card {
+
+  padding: 0 11px 22px;
+
+  width: 50%;
+
+}
+
+
+
+.blue-box-card__in {
+
+  border: 1px solid #aaa;
+
+  height: 100%;
+
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: flex-start;
+
+  padding: 15px 8px;
+
+}
+
+
+
+.blue-box-card__text {
+
+  font-size: 28px;
+
+  line-height: 1.2em;
+
+}
+
+
+
+.blue-box-card__text-small {
+
+  font-size: 0.8em;
+
+  line-height: 1.2em;
+
+}
+
+
+
+.blue-box-card.item1 .blue-box-card__text {
+
+  font-size: 38px;
+
+  line-height: 1.2em;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .blue-box__wrapper {
+
+    flex-direction: column;
+
+  }
+
+  .blue-box__l {
+
+    width: 100%;
+
+    padding-right: 15px;
+
+  }
+
+  .blue-box__r {
+
+    width: 100%;
+
+  }
+
+  .blue-box__r .list {
+
+    font-size: 16px;
+
+  }
+
+  .blue-box__r-inner {
+
+    width: 100%;
+
+  }
+
+  .blue-box__title {
+
+    font-size: 24px;
+
+    line-height: 1.3em;
+
+  }
+
+  .blue-box-card__text {
+
+    font-size: 20px;
+
+    line-height: 1.2em;
+
+  }
+
+  .blue-box-card.item1 .blue-box-card__text {
+
+    font-size: 20px;
+
+    line-height: 1.2em;
+
+  }
+
+  .blue-box-cards:after {
+
+    content: unset;
+
+    display: none;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+  /**/
+
+  .blue-box-card__text {
+
+    font-size: 16px;
+
+    line-height: 1.2em;
+
+  }
+
+  .blue-box-card.item1 .blue-box-card__text {
+
+    font-size: 16px;
+
+    line-height: 1.2em;
+
+  }
+
+  .blue-box-card__text-small {
+
+    font-size: 14px;
+
+  }
+
+}
+
+
+
+.vocabulary-section .heading {
+
+  margin-bottom: 30px;
+
+}
+
+
+
+.vocabulary-section .heading__icon {
+
+  margin-left: 40px;
+
+  padding-top: 20px;
+
+}
+
+
+
+.vocabulary-practice {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  width: 100%;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+  font-size: 28px;
+
+  line-height: 1.2em;
+
+  padding-bottom: 25px;
+
+}
+
+
+
+.vocabulary-practice__l {
+
+  width: 320px;
+
+  flex-shrink: 0;
+
+  padding-right: 40px;
+
+}
+
+
+
+.vocabulary-practice__l p {
+
+  margin: 0 0 0 27px;
+
+}
+
+
+
+.vocabulary-practice__l ul {
+
+  margin: 12px 0;
+
+  padding: 0 0 0 40px;
+
+}
+
+
+
+.vocabulary-practice__r {
+
+  padding-top: 70px;
+
+}
+
+
+
+.vocabulary-practice__element {
+
+  border-bottom: 1px solid #b0b0b0;
+
+  padding-bottom: 1.65em;
+
+  margin-top: 1em;
+
+}
+
+
+
+.vocabulary-practice__element:first-child {
+
+  margin-top: 0;
+
+}
+
+
+
+.vocabulary-practice__title {
+
+  font-size: 30px;
+
+  line-height: 1.2em;
+
+  margin-bottom: 0.5em;
+
+}
+
+
+
+.v-approach {
+
+  font-size: 28px;
+
+  line-height: 1.2em;
+
+  max-width: 720px;
+
+  border-bottom: 1px solid #a9a9a9;
+
+  padding-bottom: 16px;
+
+}
+
+
+
+.v-approach__intro {
+
+  margin-bottom: 10px;
+
+}
+
+
+
+.v-approach__wrapper {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  width: 100%;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+}
+
+
+
+.v-approach__text {
+
+  width: 370px;
+
+  flex-shrink: 0;
+
+  padding-right: 16px;
+
+  padding-top: 0.75em;
+
+  font-size: 24px;
+
+  line-height: 25px;
+
+}
+
+
+
+.v-approach__text p {
+
+  margin: 0 0 1.458333333em 2.25em;
+
+}
+
+
+
+.v-approach__text p strong {
+
+  font-weight: normal;
+
+  border-bottom: 1px solid #231f20;
+
+}
+
+
+
+.v-approach__title {
+
+  font-size: 28px;
+
+  line-height: 1.2em;
+
+  margin-bottom: 25px;
+
+}
+
+
+
+.v-approach__img {
+
+  font-size: 0;
+
+  line-height: 0;
+
+  flex-shrink: 0;
+
+}
+
+
+
+@media screen and (max-width: 1170px) {
+
+  /**/
+
+  .vocabulary-practice {
+
+    font-size: 24px;
+
+  }
+
+  .v-approach {
+
+    font-size: 24px;
+
+  }
+
+  .v-approach__text {
+
+    font-size: 20px;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .vocabulary-practice {
+
+    font-size: 20px;
+
+    flex-direction: column;
+
+  }
+
+  .vocabulary-practice__l {
+
+    width: 100%;
+
+    padding-right: 0;
+
+  }
+
+  .vocabulary-practice__r {
+
+    width: 100%;
+
+    padding-top: 40px;
+
+  }
+
+  .v-approach {
+
+    font-size: 20px;
+
+  }
+
+  .v-approach__wrapper {
+
+    flex-direction: column;
+
+  }
+
+  .v-approach__title {
+
+    font-size: 24px;
+
+  }
+
+  .v-approach__text {
+
+    width: 100%;
+
+  }
+
+  .v-approach__text p {
+
+    margin-left: 0.5em;
+
+  }
+
+}
+
+
+
+.writing-section .heading {
+
+  margin-bottom: 16px;
+
+}
+
+
+
+.writing-section .heading__icon {
+
+  margin-left: 105px;
+
+}
+
+
+
+.grey-box {
+
+  background-color: #fbfcfc;
+
+  font-size: 16px;
+
+  line-height: 1em;
+
+  padding: 14px 1.5em 18px;
+
+}
+
+
+
+.grey-box p {
+
+  margin: 0 0 1em;
+
+}
+
+
+
+.grey-box__title {
+
+  font-size: 24px;
+
+  line-height: 26px;
+
+  margin-bottom: 1em;
+
+}
+
+
+
+.writing-approach {
+
+  padding-top: 33px;
+
+  padding-bottom: 22px;
+
+  position: relative;
+
+}
+
+
+
+.writing-approach:after {
+
+  content: '';
+
+  display: block;
+
+  bottom: 0;
+
+  left: 45px;
+
+  right: 45px;
+
+  position: absolute;
+
+  background-color: #ababab;
+
+  height: 1px;
+
+}
+
+
+
+.writing-approach__intro {
+
+  font-size: 28px;
+
+  line-height: 1.2em;
+
+  margin-bottom: 26px;
+
+  padding-left: 1em;
+
+  color: #070808;
+
+}
+
+
+
+.writing-approach__line2 {
+
+  text-align: center;
+
+  position: relative;
+
+  font-size: 28px;
+
+  line-height: 1.2em;
+
+}
+
+
+
+.writing-approach__line2 img {
+
+  max-width: 100%;
+
+}
+
+
+
+.writing-approach__line2-text {
+
+  position: absolute;
+
+  left: 0;
+
+  top: 42px;
+
+  text-align: left;
+
+}
+
+
+
+.writing-approach__line2-subtitle {
+
+  margin-left: 38px;
+
+  margin-top: 18px;
+
+}
+
+
+
+.writing-approach__footer {
+
+  padding-top: 48px;
+
+}
+
+
+
+.writing-approach__footer-wrapper {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  width: 100%;
+
+  justify-content: flex-start;
+
+  align-items: flex-start;
+
+}
+
+
+
+.writing-approach__footer-l {
+
+  width: 350px;
+
+  flex-shrink: 0;
+
+  padding-right: 20px;
+
+  font-size: 24px;
+
+  line-height: 26px;
+
+}
+
+
+
+.writing-approach__footer-r {
+
+  padding-top: 2px;
+
+}
+
+
+
+.writing-approach__footer-title {
+
+  margin-bottom: 8px;
+
+}
+
+
+
+.writing-approach__footer-descr-1 {
+
+  padding-left: 24px;
+
+  margin-bottom: 6px;
+
+}
+
+
+
+.writing-approach__footer-descr-2 {
+
+  padding-left: 36px;
+
+}
+
+
+
+.writing-approach__footer-descr-3 {
+
+  padding-left: 36px;
+
+  margin-top: 19px;
+
+}
+
+
+
+@media screen and (max-width: 1170px) {
+
+  /**/
+
+  .writing-approach__line2 {
+
+    font-size: 24px;
+
+    line-height: 1.2em;
+
+  }
+
+  .writing-approach__line2-text {
+
+    position: static;
+
+    margin-top: 40px;
+
+    margin-bottom: 40px;
+
+  }
+
+  .writing-approach__footer-l {
+
+    font-size: 20px;
+
+    line-height: 1.2em;
+
+  }
+
+  .grey-box__title {
+
+    font-size: 20px;
+
+    line-height: 1.2em;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+  /**/
+
+  .writing-approach__footer-wrapper {
+
+    flex-direction: column;
+
+  }
+
+  .writing-approach__footer-l {
+
+    width: 100%;
+
+  }
+
+  .writing-approach__footer-r {
+
+    margin-top: 40px;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .writing-section .heading__icon {
+
+    top: 20px;
+
+  }
+
+  .writing-section .heading__text {
+
+    font-size: 32px;
+
+  }
+
+  .grey-box {
+
+    line-height: 1.2em;
+
+  }
+
+}
+
+
+
+.essay-section {
+
+  padding-bottom: 50px;
+
+}
+
+
+
+.essay-section .heading__icon {
+
+  margin-left: 40px;
+
+}
+
+
+
+.essay-section .heading__blue-box {
+
+  padding-top: 4px;
+
+  padding-bottom: 12px;
+
+  font-size: 28px;
+
+  line-height: 1em;
+
+}
+
+
+
+.essay-approach {
+
+  padding-top: 8px;
+
+}
+
+
+
+.essay-approach__title {
+
+  font-size: 28px;
+
+  line-height: 1.2em;
+
+  font-weight: normal;
+
+  padding-left: 1.15em;
+
+  margin-bottom: 19px;
+
+}
+
+
+
+.essay-approach__table-header {
+
+  font-size: 28px;
+
+  line-height: 1.2em;
+
+  font-weight: normal;
+
+  padding-left: 2.5715em;
+
+}
+
+
+
+.essay-table-wrapper {
+
+  max-width: 970px;
+
+}
+
+
+
+.essay-table-wrapper table {
+
+  border-collapse: separate;
+
+  border-spacing: 30px;
+
+  width: 100%;
+
+}
+
+
+
+.essay-table-wrapper table th {
+
+  font-size: 28px;
+
+  line-height: 1.2em;
+
+  font-weight: normal;
+
+  text-align: center;
+
+  vertical-align: bottom;
+
+}
+
+
+
+.essay-table-wrapper table td {
+
+  text-align: left;
+
+  vertical-align: top;
+
+  font-size: 24px;
+
+  line-height: 26px;
+
+  border-top: 1px solid #181818;
+
+  padding-top: 16px;
+
+  padding-bottom: 10px;
+
+  padding-left: 20px;
+
+  padding-right: 20px;
+
+}
+
+
+
+.essay-table-wrapper table td p {
+
+  margin: 0 0 26px;
+
+}
+
+
+
+.essay-table-wrapper table td p:last-child {
+
+  margin-bottom: 0;
+
+}
+
+
+
+.essay-table-wrapper table td:first-child {
+
+  font-size: 28px;
+
+  line-height: 1.2em;
+
+  font-weight: normal;
+
+  padding-left: 40px;
+
+  padding-top: 26px;
+
+  width: 320px;
+
+}
+
+
+
+@media screen and (max-width: 1170px) {
+
+  /**/
+
+  .essay-approach__table-header {
+
+    font-size: 24px;
+
+    line-height: 1.2em;
+
+  }
+
+  .essay-approach__title {
+
+    font-size: 24px;
+
+    line-height: 1.2em;
+
+  }
+
+  .essay-table-wrapper table {
+
+    border-spacing: 15px;
+
+  }
+
+  .essay-table-wrapper table th {
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+  }
+
+  .essay-table-wrapper table td {
+
+    font-size: 20px;
+
+    line-height: 1.2em;
+
+  }
+
+  .essay-table-wrapper table td:first-child {
+
+    font-size: 20px;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  /**/
+
+  .essay-section .heading__icon {
+
+    top: 25px;
+
+  }
+
+  .essay-section .heading__text br {
+
+    display: none;
+
+  }
+
+  .essay-approach__title {
+
+    font-size: 20px;
+
+    line-height: 1.2em;
+
+  }
+
+  .essay-approach__table-header {
+
+    font-size: 20px;
+
+    line-height: 1.2em;
+
+  }
+
+  .essay-table-wrapper table td:first-child {
+
+    width: 40%;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+  /**/
+
+  .essay-approach__title {
+
+    font-size: 16px;
+
+    line-height: 1.2em;
+
+  }
+
+  .essay-approach__table-header {
+
+    font-size: 16px;
+
+    line-height: 1.2em;
+
+  }
+
+  .essay-table-wrapper table {
+
+    border-spacing: 5px;
+
+    table-layout: fixed;
+
+  }
+
+  .essay-table-wrapper table th {
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+  }
+
+  .essay-table-wrapper table td {
+
+    font-size: 16px;
+
+    line-height: 1.2em;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+  }
+
+  .essay-table-wrapper table td:first-child {
+
+    font-size: 16px;
+
+    width: 30%;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+  }
+
+  .essay-table-wrapper table td:nth-child(2) {
+
+    width: 70%;
+
+  }
+
+}
+
+
+
+.approach-english .english-teacher {
+
+  padding: 25px 0;
+
+}
+
+
+
+.approach-english .english-teacher:nth-child(2n) .english-teacher-card {
+
+  padding-left: 50px;
+
+}
+
+
+
+.lessons-container {
+
+  padding-bottom: 32px;
+
+}
+
+
+
+.lessons-container .lesson {
+
+  padding: 40px 0;
+
+}
+
+
+
+.lesson--reverse .lesson-video {
+
+  margin-left: auto;
+
+}
+
+
+
+.lesson {
+
+  justify-content: flex-start;
+
+}
+
+
+
+.lesson-card {
+
+  width: calc(100% - 464px);
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  .english-teacher-video, .lesson-video {
+
+    width: 100%;
+
+    max-width: 464px;
+
+  }
+
+
+
+  .lesson-card {
+
+    width: 100%;
+
+    max-width: 100%;
+
+    padding-left: 0;
+
+    margin-top: 41px;
+
+  }
+
+
+
+  .lesson--reverse .lesson-card {
+
+    padding-left: 0;
+
+    margin-top: 0;
+
+  }
+
+
+
+  .lesson {
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+  }
+
+
+
+  .english-teachers {
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    padding-bottom: 40px;
+
+  }
+
+
+
+  .english-teachers .english-teacher {
+
+    margin-top: 40px;
+
+  }
+
+
+
+  .english-teachers .english-teacher:first-child {
+
+    margin-top: 0;
+
+  }
+
+
+
+  .lessons-container .lesson:last-child {
+
+    padding-bottom: 0px;
+
+  }
+
+
+
+  .yellow-section {
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+  }
+
+
+
+  .blue-section {
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+  }
+
+
+
+  .blue-section-title, .yellow-section-title {
+
+    font-size: 45px;
+
+  }
+
+}
+
+
+
+.approach-english .english-teacher-name, .approach-english .lesson-description {
+
+  font-size: 20px;
+
+  line-height: 1.25em;
+
+}
+
+
+
+.approach-english .english-teacher-card, 
+
+.approach-english .lesson-card {
+
+  padding-right: 50px;
+
+}
