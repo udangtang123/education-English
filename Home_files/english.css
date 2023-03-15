@@ -1,0 +1,199 @@
+.elementary-school-banner {
+  display: flex;
+  position: relative;
+}
+
+.elementary-school-banner__textbox {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 610px;
+  margin: 0;
+  background-color: rgba(255, 255, 255, .7);
+  color: #010101;
+  text-align: left;
+  font-family: CalisMTBol, "Calisto MT", serif;
+  font-size: 48px;
+  line-height: 68px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.elementary-school-section-padding {
+  padding: 34px 30px 10px;
+}
+
+
+
+.elementary-school-intro {
+  /* background-color: #a6d4f6; */
+  background-color: #58cbf4;
+}
+
+.camp-page .blue-section {
+  font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+.approach-english {
+  padding: 34px 30px;
+  background-color: #58cbf4;
+}
+
+.approach-english>h3 {
+  font-size: 25px;
+}
+
+.key-benefit__title {
+  font-size: 32px;
+  line-height: 1.2em;
+  font-family: "Arial Black", sans-serif;
+  position: relative;
+}
+
+.key-benefit__subtitle {
+  font-size: 26px;
+  line-height: 1.2em;
+}
+
+.english-teacher,
+.lesson {
+  display: flex;
+  /* flex-direction: row; */
+  /* width: 100%; */
+  /* flex-wrap: nowrap; */
+  justify-content: center;
+  align-items: center;
+}
+
+.approach-english .english-teacher {
+  padding: 25px 0;
+}
+
+.english-teacher-card,
+.lesson-card {
+  padding: 0 0px 0 56px;
+  max-width: 50%;
+}
+
+.approach-english .english-teacher-card,
+.approach-english .lesson-card {
+  padding-right: 50px;
+}
+
+.english-teacher-video,
+.lesson-video {
+  width: 464px;
+}
+
+.english-teacher-name,
+.lesson-description {
+  margin-bottom: 41px;
+  font-size: 31px;
+  line-height: 1.2em;
+}
+
+.approach-english .english-teacher-name,
+.approach-english .lesson-description {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.camp-videos-wrapper {
+  background-color: #e8f0bf;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+.camp-intro__heading-with-icon {
+  font-family: "Arial Black", sans-serif;
+  font-size: 28px;
+  line-height: 1.2em;
+  position: relative;
+  margin-bottom: 0.875em;
+}
+
+.camp-intro__heading-with-icon h2 {
+  margin: 0;
+}
+
+
+.camp-page h2,
+.camp-page h3 {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: #231f20;
+}
+
+
+.camp-intro__heading-with-icon-sm {
+  font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+.camp-intro__heading-with-icon-sm h3 {
+  margin: 10px 0;
+}
+
+.camp-videos-wrapper .camp-intro__heading-with-icon-sm {
+  font-size: 30px;
+  line-height: 1.2em;
+  margin-top: 0;
+}
+
+
+.camp-page h2,
+.camp-page h3 {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+.camp-section-padding {
+  padding: 34px 30px;
+}
+
+.camp-week-videos-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 24px;
+}
+
+
+.camp-week-videos-item__frame {
+  font-size: 0;
+  line-height: 0;
+  width: 300px;
+}
+
+.camp-week-videos-item--reverse .camp-week-videos-item__frame {
+  order: 2;
+  margin-left: auto;
+}
+
+div.com-apple-iweb-widget-YouTube {
+  width: 100% !important;
+}
+
+.youtube_widget {
+  height: 100%;
+}
+
+.youtube {
+  position: relative;
+  height: 100%;
+}
+
+.camp-week-videos-item__title {
+  padding-left: 48px;
+  font-size: 30px;
+  line-height: 1.2em;
+}
