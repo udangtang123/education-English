@@ -100,7 +100,7 @@
 }
 
 .camp-videos-wrapper {
-  background-color: #e8f0bf;
+  background-color: #58cbf4;
   overflow: hidden;
   padding-bottom: 40px;
 }
@@ -196,4 +196,9 @@ div.com-apple-iweb-widget-YouTube {
   padding-left: 48px;
   font-size: 30px;
   line-height: 1.2em;
+}
+
+.find-section__header {
+  border: none;
+  margin-top: 10px;
 }
