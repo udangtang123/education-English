@@ -110,6 +110,9 @@
 }
 
 .camp-intro__heading-with-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: CalisMTBol, "Calisto MT", serif;
   /* font-family: "Arial Black", sans-serif; */
   font-size: 28px;
