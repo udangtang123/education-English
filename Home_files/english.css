@@ -38,16 +38,20 @@
 .approach-english {
   padding: 34px 30px;
   background-color: #58cbf4;
+  font-family: CalisMTBol, "Calisto MT", serif;
 }
 
-.approach-english>h3 {
-  font-size: 25px;
+.approach-english h3 {
+  /* font-size: 25px; */
+  font-family: CalisMTBol, "Calisto MT", serif;
 }
 
 .key-benefit__title {
-  font-size: 32px;
+  font-size: 36px;
+  font-weight: 600;
   line-height: 1.2em;
-  font-family: "Arial Black", sans-serif;
+  font-family: CalisMTBol, "Calisto MT", serif;
+  /* font-family: "Arial Black", sans-serif; */
   position: relative;
 }
 
@@ -106,7 +110,8 @@
 }
 
 .camp-intro__heading-with-icon {
-  font-family: "Arial Black", sans-serif;
+  font-family: CalisMTBol, "Calisto MT", serif;
+  /* font-family: "Arial Black", sans-serif; */
   font-size: 28px;
   line-height: 1.2em;
   position: relative;
@@ -115,6 +120,8 @@
 
 .camp-intro__heading-with-icon h2 {
   margin: 0;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 
@@ -130,11 +137,13 @@
 
 
 .camp-intro__heading-with-icon-sm {
-  font-family: "Arial Rounded MT Bold", sans-serif;
+  /* font-family: "Arial Rounded MT Bold", sans-serif; */
 }
 
 .camp-intro__heading-with-icon-sm h3 {
   margin: 10px 0;
+  font-family: CalisMTBol, "Calisto MT", serif;
+  font-weight: normal;
 }
 
 .camp-videos-wrapper .camp-intro__heading-with-icon-sm {
